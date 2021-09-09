@@ -262,6 +262,7 @@ stashとは、ファイルの変更内容を一時的に記録しておく領域
 - GitHub上で`Shift + /`を押すとでキーボードショートカットが表示される
 - GitHub上で`t`を押すとでファイル名でフィルタリングすることができる。
 - GitHubのURLを`(リポジトリのURL)/compare/(新しい方のブランチ)---(古い方のブランチ)`とすることで二つのブランチの差分を確認することができる。
+- Issueの書き方については[こちらに](https://github.com/NakZMichael/git-cheatsheet/issues/1)まとめてある。
 
 ## 用語集
 
