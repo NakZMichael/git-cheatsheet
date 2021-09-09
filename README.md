@@ -263,12 +263,15 @@ stashとは、ファイルの変更内容を一時的に記録しておく領域
 - GitHub上で`t`を押すとでファイル名でフィルタリングすることができる。
 - GitHubのURLを`(リポジトリのURL)/compare/(新しい方のブランチ)---(古い方のブランチ)`とすることで二つのブランチの差分を確認することができる。
 - Issueの書き方については[こちらに](https://github.com/NakZMichael/git-cheatsheet/issues/1)まとめてある。
+- commitメッセージに`#(Issueの番号)`とつければ自動的にIssueに関連付けられる
+  - その他、`fix,fixes,close #(Issueの番号)`などとすると自動的に閉じられる。
 
 ## 用語集
 
 ### Pull Request
 
 ソースコード付きのIssue。
+Issueにソースコードを付与することでPull Requestに変換することができる。
 
 - 開発中のプルリクエストは\[WIP\]とつけるのが慣例。WIP とは Work In Progress の略。
 
